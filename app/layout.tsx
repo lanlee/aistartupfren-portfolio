@@ -5,7 +5,12 @@ export const metadata: Metadata = {
   title: "Lan 🌊 AI startup fren",
   description: "AI startup tips, SEO/AEO/GEO guides, and startup consulting services",
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+      { url: '/favicon.png', sizes: '32x32', type: 'image/png' }
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/favicon.png',
   },
 };
 

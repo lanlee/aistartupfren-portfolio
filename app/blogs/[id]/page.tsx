@@ -182,10 +182,10 @@ export default function BlogPost({ params }: { params: { id: string } }) {
   };
 
   return (
-    <main className="relative h-screen w-full overflow-hidden bg-[#D4D0C8] flex flex-col">
+    <main className="relative h-screen w-full bg-[#D4D0C8] flex flex-col overflow-hidden">
       {/* Content wrapper */}
-      <div className="relative z-10 flex-1 flex flex-col pb-20 sm:pb-16">
-        <div className="win2k-window w-full h-full flex flex-col shadow-2xl">
+      <div className="relative z-10 flex-1 flex flex-col pb-20 sm:pb-16 overflow-hidden">
+        <div className="win2k-window w-full h-full flex flex-col shadow-2xl overflow-hidden">
           {/* Title Bar */}
           <div className="bg-gradient-to-r from-[#0054E3] to-[#0099E3] text-white px-3 py-2 flex justify-between items-center">
             <div className="flex items-center gap-2">
