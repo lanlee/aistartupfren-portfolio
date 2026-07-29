@@ -3,6 +3,7 @@ title: "Top AI Startup Funding Trends to Watch in 2026"
 date: "2026-07-29"
 ---
 
+
 ## Introduction
 
 If you're raising capital for an AI startup right now, you're navigating a market that looks nothing like it did even 12 months ago.
